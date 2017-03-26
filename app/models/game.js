@@ -7,7 +7,7 @@ const gameSchema = new Schema(
     {
         name: String,
         year: Number,
-        desription: String,
+        description: String,
         picture: String,
         postDate: {type: Date, default: Date.now} // Timestamp
     }

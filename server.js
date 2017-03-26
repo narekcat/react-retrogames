@@ -17,7 +17,7 @@ const options = {
 }; // Just a banch of options for DB connection
 mongoose.Promise = global.Promise;
 // Don't forget to substitue it with your connection string
-mongoose.connect('localhost:27017', options);
+mongoose.connect('mongodb://localhost/react-retrogamesdb', options);
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
