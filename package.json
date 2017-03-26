@@ -1,0 +1,15 @@
+{
+  "name": "react-retrogames",
+  "version": "1.0.0",
+  "description": "react retrogames",
+  "main": "index.js",
+  "repository": "git@github.com:narekcat/react-retrogames.git",
+  "author": "Narek Vardzelyan <narekcat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1"
+  }
+}
