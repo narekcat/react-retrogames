@@ -2,7 +2,7 @@
   "name": "react-retrogames",
   "version": "1.0.0",
   "description": "react retrogames",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "git@github.com:narekcat/react-retrogames.git",
   "author": "Narek Vardzelyan <narekcat@gmail.com>",
   "license": "MIT",
@@ -11,5 +11,13 @@
     "express": "^4.15.2",
     "mongoose": "^4.9.1",
     "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  },
+  "scripts": {
+      "api": "babel-node server.js"
   }
 }
