@@ -3,7 +3,7 @@
 const webpack = require('webpack');
 const PATHS = require('./webpack-paths');
 
-export.devServer = function(options) {
+exports.devServer = function(options) {
     return {
         devServer: {
             historyApiFallback: true,
@@ -21,21 +21,21 @@ export.devServer = function(options) {
             })
         ]
     };
-}
+};
 // th css loader
-export.css = {
+exports.css = {
     test: /\.css$/,
     use: ['style-loader', 'css-loader'],
     include: PATHS.css
 };
 // The file loader
 exports.font = {
-    test: \/.ttf$\,
+    test: /\.ttf$/,
     use: ['file-loader']
 };
 // Babel loader
 exports.babel = {
-    test: \/.jsx$/,
+    test: /\.jsx$/,
     exclude: /node_modules/,
     use: ['babel-loader']
 };

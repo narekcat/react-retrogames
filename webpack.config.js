@@ -41,9 +41,9 @@ switch(process.env.NODE_ENV) {
             loaders.devServer({
                 host: process.env.host,
                 port: 3000
-            });
+            })
         );
 }
 
 // We export the config
-module.export = config;
+module.exports = config;
