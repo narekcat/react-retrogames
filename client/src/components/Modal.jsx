@@ -11,7 +11,7 @@ export default class Modal extends PureComponent {
             picture
         } = this.props.game;
         return (
-            <div className = "modal fade" id = "game-modal" tabIndex = "-1" role = "dialog" aria - labelledby = "myModalLabel">
+            <div className = "modal fade" id = "game-modal" tabIndex = "-1" role = "dialog" aria-labelledby = "myModalLabel">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
