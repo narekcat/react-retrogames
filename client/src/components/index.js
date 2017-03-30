@@ -4,4 +4,4 @@ import Home from './Home';
 import Welcome from './Welcome';
 
 // We export all the components at once
-export { About, Contact, Home, Welcome }
+export { About, Contact, Home, Welcome };

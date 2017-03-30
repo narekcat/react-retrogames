@@ -35,7 +35,7 @@ exports.font = {
 };
 // Babel loader
 exports.babel = {
-    test: /\.jsx$/,
+    test: /\.jsx?$/,
     exclude: /node_modules/,
     use: ['babel-loader']
 };
